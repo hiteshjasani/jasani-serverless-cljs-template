@@ -1,0 +1,17 @@
+service: {{name}}
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  get:
+    cljs: {{name}}.core/get
+    events:
+      - http:
+          path: get
+          method: get
+          cors: true
+
+plugins:
+  - serverless-cljs-plugin
