@@ -1,6 +1,6 @@
 (defproject {{name}} "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure       "1.9.0"]
-                 [org.clojure/clojurescript "1.10.64"]
+                 [org.clojure/clojurescript "1.10.238"]
                  [io.nervous/cljs-lambda    "0.3.5"]]
   :plugins [[lein-npm                    "0.6.2"]
             [io.nervous/lein-cljs-lambda "0.6.6"]]
